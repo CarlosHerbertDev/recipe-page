@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Young-serif'  ;
+    src: url(../fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: 'Outfit'  ;
+    src: url(../fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+
+body {
+    background-color: var(--Eggshell);
+    font-family: 'Outfit';
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .omellete-image {
+    width: 100%;
+    border-radius: 10px;
+    padding-bottom:10px;
+}
+
+.container {
+    background-color: var(--White);
+    max-width: 650px;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 60px;
+}
+
+.container h1 {
+    font-family: 'Young-serif';
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.container .descricao {
+    margin: 17px 0px 25px;
+}
+
+.container hr {
+    margin: 10px 0px 10px;
+    border-top: 1px solid var(--Light-Grey);
+}
+
+.container .tempo-de-preparacao {
+    background-color: var(--Rose-White);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container .tempo-de-preparacao .preparacao li::marker {
+    color: var(--Dark-Raspberry);
+}
+
+.container .tempo-de-preparacao .titulo-preparacao {
+    color: var(--Dark-Raspberry);
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.container .intructions li, .ingredients li, .preparacao li {
+    margin: 10px 20px;
+    padding-left: 10px;
+}
+.container .ingredients li::marker {
+    color: var(--Nutmeg);
+}
+.container .intructions li::marker{
+    color: var(--Nutmeg);
+    font-weight: 800;
+}
+
+.container .ingredients {
+    margin-bottom: 30px;
+}
+
+.container .intructions {
+    margin-bottom: 30px;
+}
+.container .titulo-intructions, .titulo-ingredientes, .titulo-tabela {
+    font-size: 24px;
+    font-family: 'Young-serif';
+    color: var(--Nutmeg);
+    font-weight:400;
+    margin: 20px 0px;
+}
+
+.descricao-tabela {
+    padding-bottom: 10px;
+}
+
+.container table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.container table td {
+    padding: 10px;
+}
+
+.container table tr:not(:last-child) {
+    border-bottom: 1px solid var(--Light-Grey);
+}
+
+.container table span {
+    color: var(--Nutmeg);
+    font-weight: 800;
+}
